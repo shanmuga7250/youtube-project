@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( to right, red,yellow);
+}
+form{
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column; 
+    background: rgba(255, 255,255, 0.09);
+    box-shadow: 0 5px 32px  0px rgb(179, 15, 15);
+    border-radius: 20px;
+    border-left: 2px solid rgba(255, 255,255, 0.4);
+    border-bottom: 2px solid rgba(255, 255,255, 0.4);
+    border-top: 2px solid rgba(255, 255,255, 0.4);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;  
+    margin: 30px;
+  
+}
+
+label{margin-left: 20px;
+    font-size: 25px;
+    opacity: .9;
+    text-shadow: 1px 1px 3px ;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+input{
+    width: 250px;
+    font-size: 18px;
+    margin:10px;
+    margin-left: 40px;
+    height: 25px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+   
+    border-bottom: 1px solid rgba(255, 255,255, 0.4);
+}
+button{
+    
+    width: 130px ;
+    height: 27px;
+    margin: 30px;
+    margin-left: 140px;
+    font-size: 17px;
+    opacity: 6;
+    background: rgba(255, 255,255, 0.07);
+    border: navy;
+    outline: none;
+   border-radius: 10px;
+   box-shadow: 2px 1px 1px 1px rgba(240, 207, 19, 0.5);
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   
+}
+a{
+    text-align: center;
+    font-size: 17px;
+    color:black;
+}
